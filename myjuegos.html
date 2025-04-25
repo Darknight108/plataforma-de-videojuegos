@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis juegos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <style>
+        body
+        {
+            position: relative;
+            height: 100%;
+            background: #050e2d;
+        }
+
+        .swiper
+        {
+            width: 100%;
+            padding: 150px 0 50px 0;
+        }
+
+        .swiper-slide
+        {
+            width: 300px;
+            height: 500px;
+            background-color: #323232;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+            padding: 40px;
+            text-align: center;
+        }
+
+        .icons
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .icons i
+        {
+            font-size: 20px;
+            color: #1aeeef;
+        }
+
+        .icons img
+        {
+            width: 120px;
+        }
+
+        .product-content
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .product-txt
+        {
+            flex-basis: 50%;
+            text-align: left;
+        }
+
+        .product-txt span
+        {
+            font-size: 25px;
+            color: #1aeeef;
+            font-weight: bold;
+        }
+
+        .product-txt h3
+        {
+            font-size: 20px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+
+        .product-txt p
+        {
+            font-size: 14px;
+            color: #c4c4c4;
+        }
+
+        .product-img
+        {
+            flex-basis: 50%;
+            text-align: right;
+        }
+
+        .product-img img
+        {
+            width: 120px;
+        }
+
+        .btn-1
+        {
+            display: inline-block;
+            padding: 13px 55px;
+            border: 1px solid #1aeeef;
+            border-radius: 25px;
+            color: #1aeeef;
+        }
+
+        .btn-2
+        {
+            display: inline-block;
+            padding: 13px 55px;
+            border: 1px solid #1aeeef;
+            border-radius: 25px;
+            color: #1aeeef;
+        }
+
+        .btn-3
+        {
+            display: inline-block;
+            padding: 13px 55px;
+            border: 1px solid #1aeeef;
+            border-radius: 25px;
+            color: #1aeeef;
+        }
+
+        .btn
+        {
+            display: inline-block;
+            border: 1px solid #1aeeef;
+            border-radius: 25px;
+            border-radius: 25px;
+            color: #1aeeef;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <a class="btn" href="index.html">Atras</a>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="images/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>5$</span>
+                        <h3>INCISION</h3>
+                        <p>
+                            Juego Shooter en primera persona con tematica gore
+                            ispirado en el juego de Quake y Doom.
+                        </p>
+                    </div>
+
+                    <div class="product-img">
+                        <img src="Incision portada.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-2">Actualizar</a>
+                <a href="#" class="btn-3">Borrar</a>
+                <p>
+                    Fecha de lanzaimiento: 6/9/2021
+                </p>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="images/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>2.30$</span>
+                        <h3>INCISION</h3>
+                        <p>
+                            Juego de 2D modo supervivencia en donde exploraras un mundo
+                            posapocalyptico, para sobrevivir tendras que gestionar
+                            tus recursos.
+                        </p>
+                    </div>
+
+                    <div class="product-img">
+                        <img src="The final station portada.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-2">Actualizar</a>
+                <a href="#" class="btn-3">Borrar</a>
+                <p>
+                    Fecha de lanzamiento: 12/3/2019
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+</html>

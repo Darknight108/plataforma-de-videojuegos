@@ -1,0 +1,20 @@
+{
+  "name": "plataforma-de-videojuegos-3",
+  "version": "1.0.0",
+  "main": "formulario.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chromedriver": "^135.0.4",
+    "selenium-webdriver": "^4.31.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

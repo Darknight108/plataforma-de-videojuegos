@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio web de juegos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">JUEGOS A.I.D.A</a>
+        <ul class="nav">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="categorias.html">Categorias</a></li>
+            <li><a href="myjuegos.html">Mis juegos</a></li>
+            <li><a href="formulario.html">Iniciar secion</a></li>
+            <li><a href="contacto.html">Contactanos</a></li>
+        </ul>
+        <div class="action">
+            <div class="searchBx">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <input type="text" placeholder="Buscar juegos">
+            </div>
+        </div>
+        <div class="toggleMenu"></div>
+    </header>
+    <div class="banner">
+        <div class="bg">
+            <div class="content">
+                <h2>Un sitio<br>
+                    Para los amantes de los videojuegos</h2>
+                <p>Ganar ingresos con tus propios proyecto en la hare del entretenimiento como los videojuegos</p>
+                <a href="#" class="btn">Unete ahora</a>
+            </div>
+            <img src="Doom 2016.png">
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="contentBx">
+            <h2>Sobre la plataforma</h2>
+            <p> Los desarrolladores que se vuelvan usuarios en la plataforma podran subir su contendio y poner el precio que el usuario crea adecuado.
+                Las microtransacciones son un modelo de negocio donde los usuarios pueden comprar y vender sus juegos en formato virtual mediante micropagos. 
+                de esa forma los desarrolladores grandes o independientes tengan un medio de ingresos con su producto.
+                La plataforma tomara una comision del 20% de cada venta realizada.
+            </p>
+            <a href="#">Leer mas</a>
+        </div>
+        <img src="mando.png"> 
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function()
+        {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        let list = document.querySelectorAll('.list');
+        let card = document.querySelectorAll('.card');
+
+    </script>
+</body>
+</html>

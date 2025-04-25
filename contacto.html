@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background: #050e2d;
+        }
+
+        .contact
+        {
+            padding: 20px 100px;
+            width: 100%;
+            min-height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact img
+        {
+            height: 100%;
+            width: 50%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .contact .form
+        {
+            width: 50%;
+            margin: 30px;
+        }
+
+        .contact .form h1
+        {
+            color: #fff;
+        }
+
+        .contact .form .inputBx
+        {
+            margin: 10px 0; 
+        }
+
+        .contact .form .inputBx p
+        {
+            color: #1aeeef;
+        }
+
+        .contact .form .inputBx input, 
+        .contact .form .inputBx textarea
+        {
+            border: none;
+            outline: none;
+            padding: 10px;
+            width: 100%;
+            color: #fff;
+            background: #1b2141;
+            min-height: 15px;
+            font-size: 1.1em;
+        }
+
+        .btn
+        {
+            display: inline-block;
+            border: 1px solid #1aeeef;
+            border-radius: 25px;
+            border-radius: 25px;
+            color: #1aeeef;
+        }
+    </style>
+</head>
+<body>
+
+    <a class="btn" href="index.html">Atras</a>
+
+    <div class="contact">
+        <img src="contacto.png">
+        <div class="form">
+            <h1>Contacta con nosotros</h1>
+            <div class="inputBx">
+                <p>Ingrese su nombre de usuario</p>
+                <input type="text" placeholder="Nombre usuario">
+            </div>
+
+            <div class="inputBx">
+                <p>Ingrese su Email</p>
+                <input type="text" placeholder="Email">
+            </div>
+
+            <div class="inputBx">
+                <p>Descriccion de su problema o consulta</p>
+                <textarea placeholder="Descripcion..."></textarea>
+            </div>
+
+            <div class="inputBx">
+                <input type="submit" name="submit">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
